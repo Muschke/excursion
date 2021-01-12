@@ -1,6 +1,6 @@
 
 h1.title{
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
     font-size: 50px;
     color:white;
@@ -8,8 +8,12 @@ h1.title{
 }
 
 p.link{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
     color: aquamarine;
     font-size: 16px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 body{
@@ -18,7 +22,7 @@ body{
 }
 
 h2.middleText{
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:white;
     font-weight: 300;
     font-size: 42px;
@@ -26,8 +30,19 @@ h2.middleText{
 }
 
 p.smallText{
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
     color: gray;
     text-align: center;
+}
+
+p.smallText2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+}
+
+section.tentimage{
+    max-width: 1px;
 }
